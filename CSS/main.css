@@ -1,0 +1,279 @@
+body {
+	background-color: #ADD8E6;
+}
+.img-logo {
+	max-width: 100%;
+	display: block;
+	object-fit: contain;
+	height: auto;
+	background-image: url(C:\Genshin Impact Database\Images\primogem.webp);
+	border-radius: 8px;
+	grid-area { 2 / 1 / 3 / 2; }
+}
+header {
+	width: 100%;
+	float: top;
+	background-color: #ADD8E6;
+}
+
+nav {
+	background-color: #ADD8E6;
+}
+
+.navContent { 
+	grid-area: 1 / 2 / 2 / 6; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+
+}
+
+.indexContainer {
+	display:grid;
+	height:100vh;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.charactersContainer {
+	display:grid;
+	height:250vh;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.artifactsContainer {
+	display:grid;
+	height:150vh;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.weaponsContainer {
+	display:grid;
+	height:490vh;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(30, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.container {
+	display:grid;
+	height:100vh;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.domainsContainer {
+	display:grid;
+	height:300vh;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.indexContent{ 
+	grid-area: 2 / 2 / 4 / 6; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+
+}
+.charactersContent{
+	grid-area: 2 / 2 / 13 / 6; 
+	break-inside: auto;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+
+}
+.ganyuImg{
+	grid-area: 2 / 3 / 3 / 6;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.bennettImg{
+	grid-area: 3 / 4 / 5 / 6;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.ventiImg{
+	grid-area: 6 / 3 / 8 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.colleiImg{
+	grid-area: 9 / 4 / 11 / 6;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.jadeCutter{
+	grid-area: 2 / 3 / 3 / 4; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.emblem{ 
+	grid-area: 2 / 3 / 3 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.viridescent{
+	grid-area: 3 / 4 / 4 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.noblesse{
+	grid-area: 4 / 3 / 5 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.homa{ 
+	grid-area: 3 / 4 / 5 / 6;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;	
+}
+.favSword{
+	grid-area: 5 / 3 / 6 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.sacFrag{
+	grid-area: 6 / 4 / 8 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.crescent{
+	grid-area: 8 / 3 / 9 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.thrillingTales{
+	grid-area: 9 / 4 / 11 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.rainslasher{
+	grid-area: 11 / 3 / 12 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.amos{
+	grid-area: 12 / 4 / 14 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.redhorn{
+	grid-area: 15 / 3 / 17 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.whiteTassel{
+	grid-area: 17 / 4 / 19 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.emerald{
+	grid-area: 19 / 3 / 21 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.seasonedHunters{
+	grid-area: 21 / 4 / 23 / 5;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.dullBlade{
+	grid-area: 24 / 3 / 26 / 4;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	color: #7600BC;
+}
+.weaponsContent{
+	grid-area: 2 / 2 / 29 / 3; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+}
+.artifactsContent{
+	grid-area: 2 / 2 / 29 / 3; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+}
+.domainsContent{
+	grid-area: 2 / 2 / 29 / 3; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+}
+.indexFooterContent{ grid-area: 5 / 1 / 6 / 6; }
+.charactersFooterContent{ grid-area: 13 / 1 / 14 / 6; }
+.weaponsFooterContent{ grid-area: 29 / 1 / 30 / 6; }
+.artifactsFooterContent{ grid-area: 29 / 1 / 30 / 6; }
+.domainsFooterContent{ grid-area: 29 / 1 / 20 / 6; }
+.headerContent{ 
+	grid-area: 1 / 1 / 2 / 2;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 100; 
+	line-height: 23px;
+}
+#amosLine{
+	color: #7600BC;
+}
+#ganyuLine{
+	color: #7600BC;
+}
+#ventiLine{
+	color: #7600BC;
+}
+#bennettLine{
+	color: #7600BC;
+}
+#colleiLine{
+	color: #7600BC;
+}
+#sacFragLine{
+	color: #7600BC;
+}
+#crescentLine{
+	color: #7600BC;
+}
+#thrillingTalesLine{
+	color: #7600BC;
+}
+#rainslasherLine{
+	color: #7600BC;
+}
+#redhornLine{
+	color: #7600BC;
+}
+#whiteTasselLine{
+	color: #7600BC;
+}
+#emeraldLine{
+	color: #7600BC;
+}
+#seasonedHuntersLine{
+	color: #7600BC;
+}
+#dullBladeLine{
+	color: #7600BC;
+}
+#jadeCutterLine{
+	color: #7600BC;
+}
+#favSwordLine{
+	color: #7600BC;
+}
+#homaLine{
+	color: #7600BC;
+}
+#emblemLine{
+	color: #7600BC;
+}
+#viridescentLine{
+	color: #7600BC;
+}
+#noblesseLine{
+	color: #7600BC;
+}
